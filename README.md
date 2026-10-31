@@ -16,12 +16,6 @@ When implementation begins, keep shell startup modular, make plugin loading
 explicit, and document environment changes and recovery behavior. Add syntax
 validation and reproducible shell checks before claiming the component works.
 
-## Principles
-- MODULARITY: Single responsibility per repository
-- LOOSE COUPLING: Minimal dependencies between repos
-- INTERFACE SEGREGATION: Clear, focused public APIs
-- DETERMINISTIC TESTING: Comprehensive test coverage
-
 ## License
 SPDX-License-Identifier: GPL-3.0-or-later
 
