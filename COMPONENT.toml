@@ -1,0 +1,6 @@
+[component]
+name = "SigmaOS-zsh"
+tier = 3
+description = "Zsh sovereign interactive shell configuration, completion definitions, and fast prompt theme"
+contracts = ['zsh-sovereign-profile', 'completion-engine-pack', 'fast-prompt-theme']
+upstream_inspirations = ['https://github.com/omacom/omarchy-zsh']
