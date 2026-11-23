@@ -1,4 +1,6 @@
-Omarchy shell configuration for Zsh shell.
+# fk-omarchy-zsh
+
+> Forked from omacom/omarchy-zsh (MIT). See `SIGMAOS_FORK.md`.
 
 ## Architecture
 
