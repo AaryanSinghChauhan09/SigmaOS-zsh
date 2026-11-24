@@ -1,10 +1,10 @@
 # fk-omarchy-zsh
 
-> Forked from omacom/omarchy-zsh (MIT). See `SIGMAOS_FORK.md`.
+> Forked from AaryanSinghChauhan09/SigmaOS-zsh (MIT). See `SIGMAOS_FORK.md`.
 
 ## Architecture
 
-Shared shell config (aliases, functions, environment, init) is pulled from [omadots](https://github.com/omacom-io/omadots) at package build time. This repo only contains the zsh-specific bits. Config is sourced directly from `/usr/share/` so package updates take effect immediately.
+Shared shell config (aliases, functions, environment, init) is pulled from [omadots](https://github.com/SigmaOS-io/omadots) at package build time. This repo only contains the zsh-specific bits. Config is sourced directly from `/usr/share/` so package updates take effect immediately.
 
 ### Build
 
