@@ -1,4 +1,4 @@
-# fk-omarchy-zsh
+# SigmaOS zsh
 
 > Forked from AaryanSinghChauhan09/SigmaOS-zsh (MIT). See `SIGMAOS_FORK.md`.
 
@@ -11,10 +11,10 @@ Shared shell config (aliases, functions, environment, init) is pulled from [omad
 ```mermaid
 graph LR
     omadots[omadots] --> envs & aliases & functions & inits
-    zsh_repo[omarchy-zsh] --> zoptions
+    zsh_repo[sigmaos-zsh] --> zoptions
     zsh_repo -->|templates| dotfiles["~/.zshrc, ~/.bashrc"]
 
-    subgraph "/usr/share/omarchy-zsh/shell/"
+    subgraph "/usr/share/sigmaos-zsh/shell/"
         envs
         aliases
         functions
@@ -52,10 +52,10 @@ Green = shared (from omadots). Blue = zsh-specific (from this repo).
 
 ```bash
 # Install the package
-sudo pacman -S omarchy-zsh
+sudo pacman -S sigmaos-zsh
 
 # Setup zsh (optional: auto-launch from bash)
-omarchy-setup-zsh
+sigmaos-setup-zsh
 ```
 
 ## fzf Keybindings
@@ -75,7 +75,7 @@ To add your own configuration or override defaults:
 # Edit your .zshrc
 nvim ~/.zshrc
 
-# Add customizations at the bottom after the omarchy-zsh loading
+# Add customizations at the bottom after the sigmaos-zsh loading
 ```
 
 User customizations in `~/.zshrc` take precedence over system defaults.
@@ -83,7 +83,7 @@ User customizations in `~/.zshrc` take precedence over system defaults.
 ## Uninstall
 
 ```bash
-sudo pacman -R omarchy-zsh
+sudo pacman -R sigmaos-zsh
 ```
 
 To restore bash, copy a backup to `~/.bashrc` (backups are saved as `.bashrc.backup-*`).
